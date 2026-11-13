@@ -1,0 +1,3 @@
+# Infrastructure for builds as a Kotlin user project (see KQA-3148):
+# only Kotlin artifacts are requested from the kotlin-dev repository (-Dkotlin_repo_url)
+org.jetbrains.kotlin

@@ -1,0 +1,12 @@
+# Infrastructure for builds as a Kotlin user project:
+# tests excluded from KUP builds (-Dkotlin_version) because they use Testcontainers and need Docker
+**/MariaDBTest.java
+**/OrderByCaseTest.java
+**/MySQLTest.java
+**/PostgresTest.java
+**/CustomRenderingTest.java
+**/Gh655Test.java
+**/KMariaDBTest.java
+**/KCustomRenderingTest.java
+# surefire default exclude (nested classes), dropped by surefire when excludesFile is set
+**/*$*
